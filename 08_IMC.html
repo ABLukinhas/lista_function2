@@ -8,6 +8,15 @@
     //Entrada
 
 
+    const peso = Number(prompt("infome seu peso?"))
+    const altura = Number(prompt("infome sua altura?"))
+    
+        function IMC(p,a) {
+            const imc = p / (a ** 2)
+            return imc;
+        }
+    const resultado = IMC(peso,altura).toFixed(2)
+    alert(`${resultado}`)
     //Processamento
 
 

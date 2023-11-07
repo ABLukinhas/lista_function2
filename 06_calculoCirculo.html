@@ -10,6 +10,22 @@
     //Entrada
 
 
+    const constante = Number(prompt("qual o valor da  constante?"))
+    const raio = Number(prompt("qual o valor do raio do circulo?"))
+
+    function area(π,r) {
+        const A = π * (r * r)
+        return A;
+    }
+    function perimetro(π,r) {
+        const  P = 2 * π * r
+        return P;
+    }
+
+    const AREA = area(constante,raio)
+    const PERIMETRO = perimetro(constante,raio) 
+
+    document.write(`A Área do circulo é ${AREA} <br> O Perímetro do circulo é ${PERIMETRO}`)
     //Processamento
 
 
