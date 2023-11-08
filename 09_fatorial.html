@@ -6,6 +6,16 @@
 
     //Entrada
 
+    const numero = Number(prompt("informe um numero inteiro"))
+    let numer = 1;
+    function fatorial() {
+        for (let i = 1; i <= numero; i++) {
+            numer *= i
+        }
+        return(numer)
+    }
+    alert(`O fatorial de ${numero} é: ${fatorial()}`)
+
 
     //Processamento
 

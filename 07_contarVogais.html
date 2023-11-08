@@ -8,6 +8,20 @@
 
     //Entrada
 
+    const palavra = prompt("fale uma palavra").toLowerCase()
+
+    function vogal(palavra) {
+        let cont = 0
+        for ( volgal of palavra) {
+            if(volgal == "a" || volgal == "e" || volgal == "i" || volgal == "o" || volgal == "u"){
+                cont++
+            }
+            //alert(`${cont}`)
+            
+        }  return cont
+    }
+    alert(`${vogal(palavra)}`)
+
 
     //Processamento
 
